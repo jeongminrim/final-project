@@ -1,4 +1,5 @@
 # Brain Tumor Classification Project
+20235184 임정민
 
 ## Overview
 이 프로젝트는 MRI 이미지를 기반으로 한 brain tumor의 분류를 목표로 합니다. Dataset은 pituitary_tumor, no_tumor, meningioma_tumor, glioma_tumor의 네가지 범주를 포함하고 있습니다. scikit-learn library에서 제공하는 Random Forest Classifier를 활용하여 수행하였습니다.
