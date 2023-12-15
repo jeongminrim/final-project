@@ -13,7 +13,7 @@ Random Forest Classifier를 사용하였습니다. Random Forest는 복잡한 �
 ## Hyperparameters
 Random Forest Classifier의 Hyperparameters는 최적의 성능을 위해 조정하였습니다:
 
-- Bootstrap: False
+- Bootstrap(부트스트랩 샘플링을 사용할지 여부를 결정합니다. True로 설정하면, 부트스트랩 샘플링을 사용하며, False로 설정하면 전체 데이터셋을 사용합니다): False
 - Max Features(최적의 분할을 위해 고려할 최대 feature 개수): 'sqrt'
 - Min Samples Leaf(리프노드가 되기 위해 필요한 최소한의 샘플 데이터수): 1
 - Min Samples Split(노드를 분할하기 위한 최소한의 샘플 데이터수): 3
